@@ -1,0 +1,157 @@
+
+
+/* banner */
+.banner-container {
+    width: 100%;
+    max-width: 500px; /* Ajusta este valor según tus necesidades */
+    margin: auto;
+    padding: 20px;
+    background-color: #1e2326;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-top: 30px;
+    flex: 1;
+}
+.banner-image {
+    width: 100%;
+    height: 300px; /* Ajusta este valor según tus necesidades */
+    object-fit: cover;
+    border-radius: 400px;
+}
+.banner-text {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: white;
+}
+.intro {
+    color: #fff;
+    margin: 80px;
+    margin-block-end: 10px;
+    margin-top: 30px;
+}
+
+/* Redes sociales, titulo, copyright */
+.redessociales {
+    margin-top: 30px;
+}
+.titulo {
+    margin-top: 40px;
+    color: #1CB698;
+}
+.titulo strong{
+    color: gray;
+}
+.copyright {
+    margin-top: 30px;
+    color: #fff;
+}
+.colorfondo{
+    background-color: #1e2326;
+}
+.bienvenida{
+    margin-top: 20px;
+    color: white;
+}
+.hi{
+    margin-block-end: 20px;
+}
+
+/* datos personales */
+.sobremi {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  .datospersonales h3 {
+    color: gray; 
+    margin-block-end: 20px;
+  }
+  .datospersonales ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .datospersonales ul li {
+    margin-bottom: 10px;
+  }
+  .datospersonales ul li strong {
+    color: #1CB698; /* Color de etiquetas */
+  }
+
+
+/* Sobre mi */
+.sobremi {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px ;
+    margin-top: 30px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1035px;
+    margin: auto;
+}
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .fila .col .contenedor-intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.sobremi .fila .col .contenedor-intereses .interes:hover{
+    background-color: #1CB698;
+}
+.sobremi .fila .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    margin-top: 40px;
+}
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.sobremi button:hover .overlay{
+    width: 100%;
+}
+
+/*texto bienvenida, titulo y logo */
+.contenedor {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    margin-left: 245px;
+}
+.logo img {
+    width: 60px; 
+    height: auto;
+    margin-right: 20px;
+  }
+  .texto {
+    text-align: center; /* Centra el texto */
+  }
